@@ -1,7 +1,5 @@
-// declare score variable
 let score = 0;
 
-// declare function to add one point to score
 function onePoint() {
   score = score += 1;
   return score;
