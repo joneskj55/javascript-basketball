@@ -1,7 +1,7 @@
 let score = 0;
 
 function onePoint() {
-  score = score += 1;
+  score += 1;
   return score;
 }
 
