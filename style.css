@@ -5,6 +5,15 @@
   font-family: "Anton", sans-serif;
 }
 
+.row {
+  display: flex;
+  text-align: center;
+}
+
+.column {
+  flex: 50%;
+}
+
 .button {
   color: black;
   background-color: #d26122;

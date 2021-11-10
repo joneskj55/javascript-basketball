@@ -16,26 +16,31 @@
   </head>
   <body>
     <h1 class="title">JavaScript Basketball</h1>
-    <div class="left-div">
-      Shirts<br />
-      Score: <span id="player-one-score">0</span>
-      <br />
-      <button class="button" onclick="onePoint1()">1</button>
-      <button class="button" onclick="twoPoints1()">2</button>
-      <button class="button" onclick="threePoints1()">3</button>
-    </div>
+    <div class="row">
+      <div class="column">
+        Shirts<br />
+        Score: <span id="player-one-score">0</span>
+        <br />
+        <button class="button" onclick="onePoint1()">1</button>
+        <button class="button" onclick="twoPoints1()">2</button>
+        <button class="button" onclick="threePoints1()">3</button>
+      </div>
 
+      <br />
+
+      <div class="column">
+        Blouses<br />
+        Score: <span id="player-two-score">0</span>
+        <br />
+        <button class="button" onclick="onePoint2()">1</button>
+        <button class="button" onclick="twoPoints2()">2</button>
+        <button class="button" onclick="threePoints2()">3</button>
+      </div>
+    </div>
     <br />
 
-    <div class="right-div">
-      Blouses<br />
-      Score: <span id="player-two-score">0</span>
-      <br />
-      <button class="button" onclick="onePoint2()">1</button>
-      <button class="button" onclick="twoPoints2()">2</button>
-      <button class="button" onclick="threePoints2()">3</button>
+    <div style="text-align: center; margin-top: 5%">
+      <button onclick="reset()">Restart Game</button>
     </div>
-    <br />
-    <button onclick="reset()">Restart Game</button>
   </body>
 </html>
