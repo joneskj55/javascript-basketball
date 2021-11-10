@@ -1,6 +1,14 @@
+.title {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 5em;
+  font-family: "Anton", sans-serif;
+}
+
 .button {
   color: black;
   background-color: #d26122;
   border-radius: 100px;
   cursor: grab;
+  font-size: 1em;
 }
