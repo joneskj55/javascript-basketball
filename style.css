@@ -28,7 +28,10 @@ body {
   font-family: Regular;
   margin-top: 0%;
   margin-bottom: 10%;
+  padding-top: 1vh;
   color: #f10001;
+  background-color: black;
+  border: 15px solid #c8c7c0;
 }
 
 .button {
