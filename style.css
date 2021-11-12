@@ -15,9 +15,11 @@
 }
 
 .button {
-  color: black;
-  background-color: #d26122;
-  border-radius: 100px;
   cursor: grab;
-  font-size: 1em;
+}
+
+.button:hover {
+  background-color: black;
+  border-radius: 100%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
