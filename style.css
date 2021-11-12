@@ -27,6 +27,8 @@ body {
   font-size: 5em;
   font-family: Regular;
   margin-top: 0%;
+  margin-bottom: 10%;
+  color: #f10001;
 }
 
 .button {
