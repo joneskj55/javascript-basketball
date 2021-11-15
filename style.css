@@ -25,11 +25,8 @@ body {
 
 #clock {
   font-size: 5em;
-  font-family: Regular;
-  margin-top: 0%;
-  margin-bottom: 10%;
-  margin-left: 125px;
-  margin-right: 125px;
+  font-family: Regular, serif;
+  margin: 0 125px 10%;
   padding-top: 1vh;
   color: #f10001;
   background-color: black;
