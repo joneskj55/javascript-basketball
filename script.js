@@ -56,7 +56,9 @@ const x = setInterval(function () {
 
   // Time calculation for seconds
   // Output the result in an element with id="clock"
-  document.getElementById("clock").innerHTML = Math.floor((distance % (1000 * 25)) / 1000);
+  document.getElementById("clock").innerHTML = Math.floor(
+    (distance % (1000 * 25)) / 1000
+  );
 
   // If the count down is over, write some text
   // if (distance < 0) {
