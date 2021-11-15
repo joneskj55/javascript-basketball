@@ -23,6 +23,11 @@ body {
   font-size: 2em;
 }
 
+.score {
+  font-size: 3em;
+  font-family: Regular, serif;
+}
+
 #clock {
   font-size: 5em;
   font-family: Regular, serif;
