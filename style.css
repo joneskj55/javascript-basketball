@@ -20,7 +20,7 @@ body {
 
 .column {
   flex: 33%;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 .score {
